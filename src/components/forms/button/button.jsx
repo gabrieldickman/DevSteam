@@ -1,7 +1,7 @@
 import style from './button.module.css'
 
-export default function Button(props) {
+export default function Button({children, fullWidth}) {
     return(
-        <button className={style.button}>{props.children}</button>
+        <button className={`${style.button} ${fullWidth && style.fullwidth}`}>{children}</button>
     )
 }

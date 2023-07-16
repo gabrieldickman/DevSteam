@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className={style.section}>
             <Subtitle>Outros jogos</Subtitle>
-            <div>
+            <div className={style.gamecontainer}>
               <GameCard />
               <GameCard />
               <GameCard />
